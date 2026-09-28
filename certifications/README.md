@@ -1,11 +1,17 @@
 # Certifications
 
-Online courses completed alongside this capstone project.
+Coursera courses completed alongside this capstone project. Each link opens Coursera's verification
+page, which confirms the certificate was issued to Soham Mondal.
 
-| # | Course | Offered by | Completed | Link |
-|---|---|---|---|---|
-| 1 | Python for Automation | Madecraft (Coursera) | 11 September 2026 | [View on Coursera](https://coursera.org/share/ede14955642be1fde239bc6eb1caeaf5) |
-| 2 | Selenium WebDriver with Python | Whizlabs (Coursera) | 18 September 2026 | [View on Coursera](https://coursera.org/share/fe96166a3b0760020472c37f37108b7e) |
-| 3 | Test Automation with Playwright (Python) & Robot Framework | Coursera | — | [View on Coursera](https://coursera.org/share/b2146e0f6996b8ebcc7f820b8546606a) |
+| # | Course | Offered by | Duration | Completed | Certificate |
+|---|---|---|---|---|---|
+| 1 | Python for Automation | Madecraft | ~6 hours | 11 September 2026 | [Verify (B1TL1OM66W0G)](https://www.coursera.org/account/accomplishments/verify/B1TL1OM66W0G) |
+| 2 | Selenium WebDriver with Python | Whizlabs | ~7 hours | 18 September 2026 | [Verify (XXIUHWO1V6QZ)](https://www.coursera.org/account/accomplishments/verify/XXIUHWO1V6QZ) |
+| 3 | Test Automation with Playwright (Python) & Robot Framework | Coursera | ~3 hours | 25 September 2026 | [Verify (5MIOGZVGR4EZ)](https://www.coursera.org/account/accomplishments/verify/5MIOGZVGR4EZ) |
+
+Course pages:
+[Python for Automation](https://www.coursera.org/learn/python-for-automation) ·
+[Selenium WebDriver with Python](https://www.coursera.org/learn/selenium-webdriver-python) ·
+[Test Automation with Playwright (Python) & Robot Framework](https://www.coursera.org/learn/test-automation-with-playwright-python--robot-framework)
 
 **Soham Mondal** · Enrollment No. 12023002001361 · Computer Science and Engineering, IEM Kolkata
