@@ -1,0 +1,14 @@
+test_base_url_is_https_and_ends_with_slash (__main__.TestConfigReader.test_base_url_is_https_and_ends_with_slash) ... ok
+test_browser_is_supported (__main__.TestConfigReader.test_browser_is_supported) ... ok
+test_timeout_is_positive_integer (__main__.TestConfigReader.test_timeout_is_positive_integer) ... ok
+test_login_data_has_expected_message (__main__.TestCsvReader.test_login_data_has_expected_message) ... ok
+test_search_data_has_required_columns (__main__.TestCsvReader.test_search_data_has_required_columns) ... ok
+test_to_bool (__main__.TestCsvReader.test_to_bool) ... ok
+test_placeholder_is_replaced (__main__.TestDataHelper.test_placeholder_is_replaced) ... ok
+test_unique_emails_differ (__main__.TestDataHelper.test_unique_emails_differ) ... ok
+test_name_is_windows_safe_and_timestamped (__main__.TestScreenshotName.test_name_is_windows_safe_and_timestamped) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.001s
+
+OK

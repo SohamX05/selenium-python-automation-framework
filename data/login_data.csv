@@ -1,0 +1,4 @@
+scenario,email,password,expected_message
+unregistered_email,unregistered_{uid}@example.com,WrongPass@123,Warning: No match for E-Mail Address and/or Password.
+wrong_password_format,not_a_user_{uid}@example.com,123,Warning: No match for E-Mail Address and/or Password.
+empty_credentials,,,Warning: No match for E-Mail Address and/or Password.

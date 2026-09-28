@@ -1,0 +1,35 @@
+============================= test session starts =============================
+platform win32 -- Python 3.11.4, pytest-8.4.2, pluggy-1.6.0 -- D:\selenium_capstone\venv\Scripts\python.exe
+cachedir: .pytest_cache
+metadata: {'Python': '3.11.4', 'Platform': 'Windows-10-10.0.26200-SP0', 'Packages': {'pytest': '8.4.2', 'pluggy': '1.6.0'}, 'Plugins': {'html': '4.2.0', 'metadata': '3.1.1'}, 'JAVA_HOME': 'C:\\Program Files\\Java\\jdk-18'}
+rootdir: D:\selenium_capstone
+configfile: pytest.ini
+testpaths: tests, unittest_demo.py
+plugins: html-4.2.0, metadata-3.1.1
+collecting ... collected 20 items
+
+tests/test_failure_demo.py::test_screenshot_is_captured_on_failure SKIPPED [  5%]
+tests/test_login.py::test_login_page_opens_from_home_menu PASSED         [ 10%]
+tests/test_login.py::test_invalid_login_shows_error[unregistered_email] PASSED [ 15%]
+tests/test_login.py::test_invalid_login_shows_error[wrong_password_format] PASSED [ 20%]
+tests/test_login.py::test_invalid_login_shows_error[empty_credentials] PASSED [ 25%]
+tests/test_login.py::test_valid_login_with_fresh_account PASSED          [ 30%]
+tests/test_product_search.py::test_product_search[MacBook] PASSED        [ 35%]
+tests/test_product_search.py::test_product_search[iPhone] PASSED         [ 40%]
+tests/test_product_search.py::test_product_search[Samsung] PASSED        [ 45%]
+tests/test_product_search.py::test_product_search[canon] PASSED          [ 50%]
+tests/test_product_search.py::test_product_search[xyznonexistentproduct] PASSED [ 55%]
+unittest_demo.py::TestConfigReader::test_base_url_is_https_and_ends_with_slash PASSED [ 60%]
+unittest_demo.py::TestConfigReader::test_browser_is_supported PASSED     [ 65%]
+unittest_demo.py::TestConfigReader::test_timeout_is_positive_integer PASSED [ 70%]
+unittest_demo.py::TestCsvReader::test_login_data_has_expected_message PASSED [ 75%]
+unittest_demo.py::TestCsvReader::test_search_data_has_required_columns PASSED [ 80%]
+unittest_demo.py::TestCsvReader::test_to_bool PASSED                     [ 85%]
+unittest_demo.py::TestDataHelper::test_placeholder_is_replaced PASSED    [ 90%]
+unittest_demo.py::TestDataHelper::test_unique_emails_differ PASSED       [ 95%]
+unittest_demo.py::TestScreenshotName::test_name_is_windows_safe_and_timestamped PASSED [100%]
+
+------- Generated html report: file:///D:/selenium_capstone/report.html -------
+=========================== short test summary info ===========================
+SKIPPED [1] tests\test_failure_demo.py:11: failure demo; enable with --run-failure-demo
+======================= 19 passed, 1 skipped in 51.55s ========================

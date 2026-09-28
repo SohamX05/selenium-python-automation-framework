@@ -1,0 +1,6 @@
+search_term,expected_product,expect_results
+MacBook,MacBook Air,true
+iPhone,iPhone,true
+Samsung,Samsung Galaxy Tab 10.1,true
+canon,Canon EOS 5D,true
+xyznonexistentproduct,,false

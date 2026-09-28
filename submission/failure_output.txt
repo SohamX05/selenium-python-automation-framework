@@ -1,0 +1,29 @@
+============================= test session starts =============================
+platform win32 -- Python 3.11.4, pytest-8.4.2, pluggy-1.6.0
+rootdir: D:\selenium_capstone
+configfile: pytest.ini
+plugins: html-4.2.0, metadata-3.1.1
+collected 1 item
+
+tests\test_failure_demo.py F                                             [100%]
+
+================================== FAILURES ===================================
+___________________ test_screenshot_is_captured_on_failure ____________________
+
+driver = <selenium.webdriver.chrome.webdriver.WebDriver (session="21e5d7dd03f3573c7d2d7022a56ebcb6")>
+
+    @pytest.mark.failure_demo
+    def test_screenshot_is_captured_on_failure(driver):
+        results_page = HomePage(driver).open().search_for("MacBook")
+>       assert "Product That Does Not Exist" in results_page.product_names()
+E       AssertionError: assert 'Product That Does Not Exist' in ['MacBook', 'MacBook Air', 'MacBook Pro']
+E        +  where ['MacBook', 'MacBook Air', 'MacBook Pro'] = product_names()
+E        +    where product_names = <pages.search_results_page.SearchResultsPage object at 0x000001B024F5B510>.product_names
+
+tests\test_failure_demo.py:14: AssertionError
+--------------------------------- screenshot ----------------------------------
+Saved to D:\selenium_capstone\screenshots\test_screenshot_is_captured_on_failure_20260927_153223_188858.png
+- Generated html report: file:///D:/selenium_capstone/submission/failure_report.html -
+=========================== short test summary info ===========================
+FAILED tests/test_failure_demo.py::test_screenshot_is_captured_on_failure - A...
+============================== 1 failed in 5.01s ==============================
