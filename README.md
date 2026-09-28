@@ -8,7 +8,7 @@ Capstone Assignment 2 — Selenium Python Framework Development (Unittest + PyTe
 
 - Report: [`submission/Selenium_Capstone_Submission.pdf`](submission/Selenium_Capstone_Submission.pdf) (editable: `.docx`)
 - Evidence screenshots: [`submission/screenshots/`](submission/screenshots/)
-- HTML test report: [`report.html`](report.html) · failure demo report: [`submission/failure_report.html`](submission/failure_report.html)
+- HTML test report: [`report.html`](report.html) · failure demo report: [`submission/failure_report.html`](submission/failure_report.html) (GitHub shows HTML files as source code; download and open them in a browser, or see the screenshots)
 - Latest run (27 Sep 2026, Windows, Python 3.11.4): **19 passed, 1 skipped** (the opt-in failure demo)
 - Certifications: [`certifications/`](certifications/)
 - Locator assignments 1–4: [`assignments/`](assignments/)
@@ -34,7 +34,7 @@ in a reusable, scalable framework.
 ## Project Structure
 
 ```text
-selenium_capstone/
+selenium-python-automation-framework/
 ├── config/
 │   └── config.ini            # base URL, browser, timeout, headless, screenshot folder
 ├── data/
@@ -74,7 +74,8 @@ selenium_capstone/
 Requirements: Python 3.9+ and Google Chrome (or Microsoft Edge). No manual ChromeDriver download is needed.
 
 ```bash
-cd selenium_capstone
+git clone https://github.com/SohamX05/selenium-python-automation-framework.git
+cd selenium-python-automation-framework
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
