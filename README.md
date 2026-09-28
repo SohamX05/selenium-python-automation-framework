@@ -2,12 +2,16 @@
 
 Capstone Assignment 2 — Selenium Python Framework Development (Unittest + PyTest + POM)
 
+**Soham Mondal** · Enrollment No. 12023002001361 · CSE, IEM Kolkata · Project Guide: Sramana Mukherjee
+
 ## Submission
 
 - Report: [`submission/Selenium_Capstone_Submission.pdf`](submission/Selenium_Capstone_Submission.pdf) (editable: `.docx`)
 - Evidence screenshots: [`submission/screenshots/`](submission/screenshots/)
 - HTML test report: [`report.html`](report.html) · failure demo report: [`submission/failure_report.html`](submission/failure_report.html)
 - Latest run (27 Sep 2026, Windows, Python 3.11.4): **19 passed, 1 skipped** (the opt-in failure demo)
+- Certifications: [`certifications/`](certifications/)
+- Locator assignments 1–4: [`assignments/`](assignments/)
 
 `capture_evidence.py` regenerates the step-by-step screenshots of the live site.
 
@@ -54,6 +58,8 @@ selenium_capstone/
 │   ├── data_helper.py        # unique e-mails / ids for test data
 │   └── paths.py              # project-relative paths (no absolute paths)
 ├── screenshots/              # failure screenshots are saved here
+├── assignments/              # locator assignments 1–4 (scripts + README)
+├── certifications/           # completed course certificates
 ├── submission/               # report (PDF/DOCX), evidence screenshots, console output
 ├── capture_evidence.py       # captures the evidence screenshots
 ├── conftest.py               # driver fixture, account fixture, screenshot-on-failure hook
